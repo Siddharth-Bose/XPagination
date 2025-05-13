@@ -1,0 +1,42 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+}
+
+.data-table {
+  width: 100%;
+  text-align: justify;
+  border-collapse: collapse;
+  border-bottom: 2px solid #009879;
+  margin-bottom: 1em;
+}
+
+.data-table thead {
+  background-color: #009879;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+}
+
+.data-table td,
+.data-table th {
+  padding: 10px;
+}
+.pagination-controls {
+  display: flex;
+  gap: 1em;
+}
+.pagination-btn {
+  background-color: #009879;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.2em;
+  color: #fff;
+}
