@@ -70,7 +70,7 @@ function App() {
           disabled={currentPage === 1}
           className="pagination-btn"
         >
-          Prev
+          Previous
         </button>
         <span className="pagination-btn">{currentPage}</span>
         <button
