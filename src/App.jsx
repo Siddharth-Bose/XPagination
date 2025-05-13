@@ -34,6 +34,7 @@ function App() {
         setEmployeeData(data);
       } catch (error) {
         console.log("Error fetching employee data: ", error);
+        window.alert("failed to fetch data");
       }
     };
     fetchEmployeeData();
